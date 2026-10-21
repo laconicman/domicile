@@ -1,0 +1,261 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ IP %@%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ IP %2$@%3$@"
+          }
+        }
+      }
+    },
+    "Also probe the tunnel exit over the network": {},
+    "BSD name of the Wi-Fi interface (default: system Wi-Fi)": {},
+    "BSD name of the uplink interface (default: from the NAT snapshot)": {},
+    "DNS does not resolve through the tunnel": {},
+    "Internet sharing disabled": {},
+    "No tunnel yet. Start your VPN now; waiting (Ctrl-C to abort).": {},
+    "Resolver address applied to the uplink service (default: 1.1.1.1)": {},
+    "Save the current NAT configuration as the reference snapshot. Requires root.": {},
+    "Show the gateway state. Works without root.": {},
+    "Start Internet sharing and supervise the VPN tunnel. Requires root.": {},
+    "Stop the supervisor, disable sharing, restore DNS and Wi-Fi. Requires root.": {},
+    "Turn this Mac into a Wi-Fi gateway that exits through the VPN tunnel.": {},
+    "Wi-Fi power-cycled on %@": {},
+    "a VPN tunnel owns the default route": {},
+    "alive": {},
+    "already running (pid %@); use 'sudo domicile down'": {},
+    "bridge    %@ ipv4=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bridge    %1$@ ipv4=%2$@"
+          }
+        }
+      }
+    },
+    "cannot monitor Wi-Fi event %@: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cannot monitor Wi-Fi event %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "could not check the System keychain: %@": {},
+    "could not create a dynamic store watcher; state changes will not be monitored": {},
+    "could not disable Internet sharing: %@": {},
+    "could not register network notification patterns": {},
+    "could not restore DNS on %@: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "could not restore DNS on %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "default route via %@": {},
+    "disable Internet sharing": {},
+    "dns       %@": {},
+    "enabling Internet sharing on %@": {},
+    "exit": {},
+    "exit ip   %@ loc=%@ colo=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "exit ip   %1$@ loc=%2$@ colo=%3$@"
+          }
+        }
+      }
+    },
+    "exit ip   no answer by IP": {},
+    "exit name %@ loc=%@ colo=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "exit name %1$@ loc=%2$@ colo=%3$@"
+          }
+        }
+      }
+    },
+    "exit name no answer by name (DNS)": {},
+    "exit: %@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "exit: %1$@ %2$@"
+          }
+        }
+      }
+    },
+    "interrupted by signal %@": {},
+    "keychain error: %@": {},
+    "network name: %@": {},
+    "no Internet-sharing password in the System keychain for %@; set the Wi-Fi password once in System Settings > General > Sharing > Internet Sharing": {},
+    "no NAT snapshot at %@; enable Internet Sharing once in System Settings > General > Sharing, then run 'sudo domicile snapshot'": {},
+    "no Wi-Fi interface found": {},
+    "no current network set": {},
+    "no network service found for interface %@": {},
+    "no uplink interface: pass --uplink or take a snapshot while Internet Sharing is on": {},
+    "nothing is running": {},
+    "overriding DNS on %@ to %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "overriding DNS on %1$@ to %2$@"
+          }
+        }
+      }
+    },
+    "preparing Wi-Fi interface %@": {},
+    "primary interface: %@": {},
+    "probing the tunnel exit": {},
+    "restore DNS on %@": {},
+    "restore Wi-Fi power": {},
+    "restored DNS on %@": {},
+    "route     1.1.1.1 unresolved": {},
+    "route     1.1.1.1 via %@%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "route     1.1.1.1 via %1$@%2$@"
+          }
+        }
+      }
+    },
+    "route socket error: %@": {},
+    "run state none": {},
+    "run state pid=%@ %@ started=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "run state pid=%1$@ %2$@ started=%3$@"
+          }
+        }
+      }
+    },
+    "service   %@ [%@] dns=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "service   %1$@ [%2$@] dns=%3$@"
+          }
+        }
+      }
+    },
+    "service   none for %@": {},
+    "sharing   enabled=%@ devices=%@ primary=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sharing   enabled=%1$@ devices=%2$@ primary=%3$@"
+          }
+        }
+      }
+    },
+    "sharing   unreadable (needs sudo)": {},
+    "sharing bridge %@ is up": {},
+    "sharing bridge back": {},
+    "sharing bridge down": {},
+    "signal %@ received; shutting down": {},
+    "snapshot  %@ (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "snapshot  %1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "snapshot saved to %@": {},
+    "stale": {},
+    "stale (pid reused)": {},
+    "state file from an unclean shutdown; recovering first": {},
+    "stopped": {},
+    "stopped supervisor": {},
+    "stopping supervisor (pid %@)": {},
+    "supervising; Ctrl-C to stop": {},
+    "supervisor did not exit in 10s; tearing down directly": {},
+    "system preferences error: %@": {},
+    "the NAT configuration is incomplete; turn Internet Sharing on once in System Settings > General > Sharing, then run 'sudo domicile snapshot'": {},
+    "this command needs root; run it with sudo": {},
+    "timed out waiting for: %@": {},
+    "tunnel back: %@; re-probing": {},
+    "tunnel is up but no internet through it": {},
+    "tunnel lost": {},
+    "undo '%@' failed: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "undo '%1$@' failed: %2$@"
+          }
+        }
+      }
+    },
+    "undone: %@": {},
+    "up: uplink=%@ bridge=%@ tunnel=%@ resolver=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "up: uplink=%1$@ bridge=%2$@ tunnel=%3$@ resolver=%4$@"
+          }
+        }
+      }
+    },
+    "uplink    %@ link=%@ ipv4=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "uplink    %1$@ link=%2$@ ipv4=%3$@"
+          }
+        }
+      }
+    },
+    "uplink    unknown": {},
+    "uplink %@ has link and IPv4": {},
+    "uplink %@ has no link and no IPv4 after 25s; check the cable and enable Personal Hotspot on the iPhone, then run 'sudo domicile up' again": {},
+    "uplink lost": {},
+    "uplink restored": {},
+    "wifi      %@ power=%@ mode=%@ service=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wifi      %1$@ power=%2$@ mode=%3$@ service=%4$@"
+          }
+        }
+      }
+    },
+    "wifi      none": {},
+    "wifi %@: mode=%@ service=%@ power=%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wifi %1$@: mode=%2$@ service=%3$@ power=%4$@"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
