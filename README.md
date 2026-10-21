@@ -34,6 +34,7 @@ The supervisor waits for any `utun` to own the default route, drives Internet Sh
 
 ## Requirements
 
+- Swift 6.1+; build with the default SwiftBuild system (`--build-system swiftbuild` on toolchains where native is still the default).
 - macOS 13+
 - administrator rights (`sudo` for `up`/`down`/`snapshot`)
 - a VPN client that produces a `utun` interface (sing-box, Xray-based apps, WireGuard, ...)

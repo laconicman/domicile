@@ -4,8 +4,9 @@ import Testing
 
 @Suite("L10n")
 struct L10nTests {
-    @Test func englishStringsResourcePresent() {
-        #expect(L10n.bundle.path(forResource: "Localizable", ofType: "strings", inDirectory: nil, forLocalization: "en") != nil)
+    @Test func interpolatedKeyResolvesToPositionalValue() {
+        let value = L10n.bundle.localizedString(forKey: "%@ IP %@%@", value: "MISSING", table: nil)
+        #expect(value == "%1$@ IP %2$@%3$@")
     }
 
     @Test func keyFallsBackToSourceText() {
