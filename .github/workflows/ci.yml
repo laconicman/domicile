@@ -14,6 +14,6 @@ jobs:
       - name: Swift version
         run: swift --version
       - name: Build
-        run: swift build
+        run: swift build --build-system swiftbuild
       - name: Test
-        run: swift test
+        run: swift test --build-system swiftbuild
