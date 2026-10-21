@@ -44,6 +44,12 @@ Numbered register. Each entry lists what it costs and the change that retires it
 
 **Discharge.** If the check misses, target System.keychain explicitly (`kSecMatchSearchList` with a legacy `SecKeychain` reference (itself deprecated) or a documented successor).
 
+## TD-8 — String catalog is only compiled by the SwiftBuild build system
+
+**Cost.** Under SwiftPM's native build system the raw `.xcstrings` ships in the resource bundle without being compiled; non-English localizations never load. English still works through source-text fallback.
+
+**Discharge.** Drop when the native build system is removed from SwiftPM, or precompile `.strings` into the resources.
+
 ## See Also
 
 - <doc:Design>
