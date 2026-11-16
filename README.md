@@ -34,6 +34,7 @@ The supervisor waits for any `utun` to own the default route, drives Internet Sh
 
 ## Requirements
 
+- Swift 6.1+; build with the default SwiftBuild system (`--build-system swiftbuild` on toolchains where native is still the default).
 - macOS 13+
 - administrator rights (`sudo` for `up`/`down`/`snapshot`)
 - a VPN client that produces a `utun` interface (sing-box, Xray-based apps, WireGuard, ...)
@@ -42,8 +43,8 @@ The supervisor waits for any `utun` to own the default route, drives Internet Sh
 ## Install
 
 ```sh
-swift build -c release --arch arm64 --arch x86_64
-sudo install -m755 "$(swift build -c release --arch arm64 --arch x86_64 --show-bin-path)/domicile" /usr/local/bin/
+swift build -c release --arch arm64 --arch x86_64 --build-system swiftbuild
+sudo install -m755 "$(swift build -c release --arch arm64 --arch x86_64 --build-system swiftbuild --show-bin-path)/domicile" /usr/local/bin/
 ```
 
 ## One-time setup
